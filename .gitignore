@@ -1,0 +1,23 @@
+# Node environments
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Private Environment Variables (CRITICAL: NEVER PUSH .ENV FILES TO GITHUB)
+.env
+server/.env
+client/.env
+
+# Python Environments
+venv/
+ml/venv/
+__pycache__/
+*.pyc
+
+# Distribution Builds
+client/dist/
+build/
+
+# OS Files
+.DS_Store
+Thumbs.db
